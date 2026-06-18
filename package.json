@@ -1,0 +1,15 @@
+{
+  "name": "saucedemo-playwright-automation",
+  "version": "1.0.0",
+  "description": "QA Intern Assessment - Task 4: Playwright Automation with Page Object Model",
+  "author": "Dhruv",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "test:debug": "npx playwright test --debug"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}
