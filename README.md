@@ -164,11 +164,4 @@ This keeps tests clean and reusable. If the UI changes, only `LoginPage.js` need
 
 ---
 
-## 🏆 Bonus Features Implemented
 
-- ✅ **Page Object Model (POM)** - Separate `LoginPage.js` class
-- ✅ **HTML Report** - Built-in Playwright HTML reporter configured
-- ✅ **Screenshot on failure** - Auto-captured when test fails
-- ✅ **Video on failure** - Video saved for failed tests
-- ✅ **Trace on retry** - Trace file for debugging flaky tests
-- ✅ **Clean assertions** - Using `expect()` with meaningful messages
