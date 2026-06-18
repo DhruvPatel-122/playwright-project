@@ -12,11 +12,13 @@
 
 ```
 playwright-project/
-├── tests/
+├── test/
 │   └── login.spec.js        ← All 4 login test cases
 ├── pages/
 │   └── LoginPage.js         ← Page Object Model class
 ├── playwright.config.js     ← Config (headless, HTML reporter, browser)
+├── screenshots/             ← Report screenshots for README
+│   └── .gitkeep             ← Keep this folder in git
 ├── package.json             ← Dependencies & npm scripts
 └── README.md                ← This file
 ```
@@ -110,6 +112,18 @@ Report folder: `playwright-report/index.html`
 
 ---
 
+## 🖼️ Screenshots
+
+Below are the key screenshots captured from the test run and HTML report:
+
+![Playwright HTML Test Report](screenshots/HTML_Report.png)
+
+![VS Code Test Output](screenshots/Execution_Screenshot.png)
+
+> Place the screenshot files in the `screenshots/` folder with these names.
+
+---
+
 ## 🔍 Viewing Test Results in Terminal
 
 When you run `npx playwright test`, you'll see output like:
@@ -163,5 +177,3 @@ This keeps tests clean and reusable. If the UI changes, only `LoginPage.js` need
 | standard_user   | (empty)       | "Password is required" error  |
 
 ---
-
-
